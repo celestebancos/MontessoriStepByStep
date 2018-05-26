@@ -6,6 +6,10 @@ a {
 	text-decoration: none;
 }
 
+img {
+	width: 100%;
+}
+
 /*Sticky Footer*/
 
 html {
@@ -13,11 +17,45 @@ html {
 }
 
 body {
+	font-family: "Lato", san-serif;
+	font-size: 16pt;
 	min-height: 100%;
 	display: flex;
 	flex-direction: column;
 }
 
+header {
+	position: relative;
+}
+
 main {
+	padding: 0 8%;
 	flex: 1;
 }
+
+h1, h1 + p {
+	font-weight: normal;
+	text-align: center;
+}
+
+h1 {
+	font-family: "Handlee";
+	/*font-family: "Kalam";*/
+	font-size: 19pt;
+	margin-bottom: 0;
+}
+
+h1 + p {
+	font-family: "Handlee";
+	font-size: 14pt;
+	/*font-style: italic;*/
+	color: #555;
+	margin-top: 0;
+}
+
+label, input {
+	font-size: 16pt;
+}
+
+
+
